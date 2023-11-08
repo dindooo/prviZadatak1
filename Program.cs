@@ -11,7 +11,7 @@ namespace PrviZadatak1
         static void Main(string[] args)
         {
             double a=2, b=4, c=6, d=8;
-            double x = (a*a+b*b+c*c+d*d)/(a+b)*(a+b)+(c+d)*(c+d);
+            double x = (a*a+b*b+c*c+d*d)/((a+b)*(a+b)+(c+d)*(c+d));
             Console.WriteLine(x);
             Console.ReadKey();
         }
